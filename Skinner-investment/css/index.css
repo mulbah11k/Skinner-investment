@@ -6,6 +6,13 @@ Author URI: https://www.templateonweb.com/
 Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
 */
 /*********************center_home****************/
+* {
+    box-sizing: border-box;
+        
+    margin: 0;
+        
+    padding: 0;
+    }
 .center_1 h6{
 letter-spacing: 0.8px; 
  }
