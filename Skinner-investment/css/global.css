@@ -12,6 +12,9 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
       
   padding: 0;
   }
+  *, *::before, *::after{
+    box-sizing: border-box;
+  }
 body{
 font-family: 'Poppins', sans-serif;
 -webkit-font-smoothing: antialiased;
@@ -252,7 +255,7 @@ text-transform:uppercase;
 font-weight:bold;
  }
 #header .nav-link{
-padding: 15px 15px 15px 15px;
+padding: 10px 15px 15px 15px;
 color:#fff;
 font-weight:600;
  }
@@ -503,7 +506,7 @@ color: #FF6A3F;
 
 /*********************skill****************/
 #skill{
-background-image: url(../img/img.jpg);
+background-image: url(../img/4.jpg);
 background-position: center;
  }
 .skill_m{
@@ -574,7 +577,7 @@ margin-top:15px;
 }
 
 .faq_1r{
-background-image: url(../img/27.jpg);
+background-image: url(../img/contact.jpg);
 background-position: center;
  }
 .faq_1rm {
